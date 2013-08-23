@@ -1,16 +1,6 @@
-# Blank Color Scheme for Textmate / Sublime Text 2 (v1.0.0)
 
-**Blank Color Scheme is a framework for easily and rapidly creating a new color scheme for Textmate / Sublime Text 2, or modifying an existing color scheme. It currently only supports a few languages. If you want to contribute on this project, you are more than welcome. Please feel free to fork this repo and make it better :)**
 
-*Note: Need to use Textmate to edit color schemes.*
-
-## Create a Custom Color Scheme
-
-Move the Blank.tmTheme file into `~/Library/Application Support/TextMate/Themes/`. Open Textmate and go to Preferences > Fonts & Colors panel, select `Blank Color Scheme` from the theme list. Then you can start to edit. When you have finished editing, close the Preferences panel to save the file. 
-
-If you want to distribute your color scheme, don't forget to change the author's name and uuid.
-
-![screen shot](http://p233.github.com/Blank-Color-Scheme/images/screen_shot.png)
+#Chaulkboard Theme for Textmate / Sublime Text 2 based on Blank Color Scheme
 
 ## Scope Selector Reference
 
@@ -41,21 +31,6 @@ Html Script Tag Name | text.html.basic entity.name.tag.script
 Html Attribute Name | text.html.basic entity.other.attribute-name
 Html Attribute Value | text.html.basic string.quoted.double.html
 
-### Jade
-
-Syntax package: [Jade.tmbundle](https://github.com/miksago/jade-tmbundle)
-
-Element      | Scope Selector
-:----------- | :--------------
-Jade Doctype | keyword.other.doctype.jade 
-Jade Tag Name | entity.name.tag.jade
-Jade Script Tag Name | entity.name.tag.script.jade
-Jade Attribute | meta.tag.attribute.jade
-Jade Attribute Name | entity.other.attribute-name.jade
-Jade Attribute Value | string.quoted.double.jade
-Jade Id | meta.tag.attribute.id.jade
-Jade Class | meta.tag.attribute.class.jade
-
 ### Css
 
 Element      | Scope Selector
@@ -76,30 +51,6 @@ Css Double Quoted | *Same as General*
 Css Single Quoted | *Same as General*
 Css url() / rgba() / hsla() | support.function
 Css Parameter | variable.parameter.misc.css
-
-### Less
-
-Syntax package: [LESS syntax package for Sublime Text 2](https://github.com/danro/LESS-sublime) or [less.tmbundle (for Textmate)](https://github.com/appden/less.tmbundle)
-
-Element      | Scope Selector
-:----------- | :--------------
-Less Selector - Tag | source.css.less keyword.control.html.elements
-Less Selector - Id | *Same as Css*
-Less Selector - Class | *Same as Css*
-Less Pseudo Class | *Same as Css*
-Less Property Name | *Same as Css*
-Less Property Value | *Same as Css*
-Less Color | source.css.less constant.other.rgb-value.css
-Less Numeric | *Same as General*
-Less Unit | source.css.less keyword.unit.css
-Less Font Name | *Same as Css*
-Less Curly Brackets | source.css.less meta.brace.curly.js
-Less Round Brackets | source.css.less meta.brace.round.js
-Less Double Quoted | *Same as General*
-Less Single Quoted | *Same as General*
-Less Operator | keyword.operator.less
-Less Variable / At Rule | variable.other.less 
-Less url() / rgba() / hsla() / Other | source.css.less support.function
 
 ### Sass
 
@@ -128,8 +79,6 @@ Sass At Rule | keyword.control.at-rule.sass
 
 ### Javascript 
 
-*I only know a tiny bit of javascript, so this part may not exact. Please feel free to fork this repo and make it better :)*
-
 Element      | Scope Selector
 :----------- | :--------------
 Javascript Function | entity.name.function.js, source.js support.function
@@ -146,8 +95,6 @@ Javascript Double Quoted | *Same as General*
 Javascript Single Quoted | *Same as General*
 
 ## Made with Blank Color Scheme
-
-I've tried to make a color scheme, but it's really awful. If you end up using it, I’d love to see the results. Just fork & pull request or [tweet me your link](https://twitter.com/PeiwenLu) to display your color scheme here.
 
 ## Changelog
 
