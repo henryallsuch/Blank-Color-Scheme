@@ -12,17 +12,17 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#FFFFFF</string>
+				<string>#002d15</string>
 				<key>caret</key>
-				<string>#000000</string>
+				<string>#e6e1c4</string>
 				<key>foreground</key>
-				<string>#000000</string>
+				<string>#e6e1c4</string>
 				<key>invisibles</key>
-				<string>#BFBFBF</string>
+				<string>#808080</string>
 				<key>lineHighlight</key>
-				<string>#00000012</string>
+				<string>#e6e1c4</string>
 				<key>selection</key>
-				<string>#A8CBFC</string>
+				<string>#000000</string>
 			</dict>
 		</dict>
 		<dict>
@@ -31,7 +31,10 @@
 			<key>scope</key>
 			<string>comment</string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+				<key>foreground</key>
+				<string>#efcb43</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -39,7 +42,12 @@
 			<key>scope</key>
 			<string>invalid.illegal</string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+				<key>background</key>
+				<string>#CC4232</string>
+				<key>foreground</key>
+				<string>#E6E1C4</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -47,7 +55,10 @@
 			<key>scope</key>
 			<string>constant.numeric</string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+				<key>foreground</key>
+				<string>#8856d2</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -55,7 +66,10 @@
 			<key>scope</key>
 			<string>string.quoted.double</string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+				<key>foreground</key>
+				<string>#cc4232</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -63,8 +77,46 @@
 			<key>scope</key>
 			<string>string.quoted.single</string>
 			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#cc4232</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>-----------------------------------</string>
+			<key>settings</key>
 			<dict/>
 		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>XML Doctype</string>
+			<key>scope</key>
+			<string>meta.tag.sgml.doctype, meta.tag.sgml.doctype entity, meta.tag.sgml.doctype string, meta.tag.preprocessor.xml, meta.tag.preprocessor.xml entity, meta.tag.preprocessor.xml string</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#86B4BB</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>XML Meta.tag.«all»</string>
+			<key>scope</key>
+			<string>declaration.tag, declaration.tag entity, meta.tag, meta.tag entity</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#efac32</string>
+			</dict>
+		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>-----------------------------------</string>
@@ -77,7 +129,10 @@
 			<key>scope</key>
 			<string>text.html.basic meta.tag</string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+				<key>foreground</key>
+				<string>#efac32</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -85,7 +140,10 @@
 			<key>scope</key>
 			<string>text.html.basic entity.name.tag</string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+				<key>foreground</key>
+				<string>#efac32</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -93,7 +151,10 @@
 			<key>scope</key>
 			<string>text.html.basic entity.name.tag.script</string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+				<key>foreground</key>
+				<string>#41b645</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -101,7 +162,10 @@
 			<key>scope</key>
 			<string>text.html.basic entity.other.attribute-name</string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+				<key>foreground</key>
+				<string>#6c99bb</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -109,7 +173,10 @@
 			<key>scope</key>
 			<string>text.html.basic string.quoted.double.html</string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+				<key>foreground</key>
+				<string>#cc4232</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -438,6 +505,23 @@
 			<string>source.js meta.brace.round.js</string>
 			<key>settings</key>
 			<dict/>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>-----------------------------------</string>
+			<key>settings</key>
+			<dict/>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Tags</string>
+			<key>scope</key>
+			<string>punctuation.section.embedded.begin.php, punctuation.section.embedded.end.php</string>
+			<key>settings</key>
+			<dict>
+			<key>foreground</key>
+			<string>#6c99bb</string>
+			</dict>
 		</dict>
 	</array>
 	<key>uuid</key>
