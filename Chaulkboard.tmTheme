@@ -27,6 +27,18 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Operator</string>
+			<key>scope</key>
+			<string>keyword.operator -keyword.operator.dereference</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#bbd7c1</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
 			<string>Comment</string>
 			<key>scope</key>
 			<string>comment</string>
@@ -80,6 +92,135 @@
 			<dict>
 				<key>foreground</key>
 				<string>#cc4232</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Language Constant</string>
+			<key>scope</key>
+			<string>constant.language</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#0092d1</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Class</string>
+			<key>scope</key>
+			<string>meta.class.identifier, entity.name.type.class, support.class</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#cfff01</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Inherited class</string>
+			<key>scope</key>
+			<string>entity.other.inherited-class</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#80FCFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Method</string>
+			<key>scope</key>
+			<string>meta.method.identifier, meta.method-call, meta.method.declaration</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#13FFA3</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Decorator</string>
+			<key>scope</key>
+			<string>meta.function.decorator entity.name.function.decorator, meta.function.decorator support.type, punctuation.definition.decorator</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#B6B8FE</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Function definition</string>
+			<key>scope</key>
+			<string>meta.function entity.name.function</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#070E48</string>
+				<key>foreground</key>
+				<string>#0AFF04</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Function call</string>
+			<key>scope</key>
+			<string>meta.function-call, support.function.name</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#10FF02</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Function arguments</string>
+			<key>scope</key>
+			<string>meta.function-call.arguments, variable.parameter</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#2BB71D</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Support function</string>
+			<key>scope</key>
+			<string>support.function</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#41b645</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Builtin function</string>
+			<key>scope</key>
+			<string>support.function.builtin</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#E0A1FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Magic function</string>
+			<key>scope</key>
+			<string>support.function.magic</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold italic</string>
+				<key>foreground</key>
+				<string>#E3A0FF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -176,6 +317,125 @@
 			<dict>
 				<key>foreground</key>
 				<string>#cc4232</string>
+			</dict>
+		</dict><dict>
+			<key>name</key>
+			<string>============================================================</string>
+			<key>settings</key>
+			<dict/>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>PHP Tags</string>
+			<key>scope</key>
+			<string>punctuation.section.embedded.begin.php, punctuation.section.embedded.end.php</string>
+			<key>settings</key>
+			<dict>
+			<key>foreground</key>
+			<string>#6c99bb</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>PHP: PHPdocs</string>
+			<key>scope</key>
+			<string>keyword.other.phpdoc.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#3A771F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: Constants Core Predefined</string>
+			<key>scope</key>
+			<string>support.constant.core.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFA325</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: Constants Standard Predefined</string>
+			<key>scope</key>
+			<string>support.constant.std.php</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold italic</string>
+				<key>foreground</key>
+				<string>#BBFD0D</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: Include() &amp; Require()</string>
+			<key>scope</key>
+			<string>keyword.other.include.php, meta.include.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#C82255</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: Keywords Storage</string>
+			<key>scope</key>
+			<string>keyword.storage.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#6969FA</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: Strings Double-Quoted</string>
+			<key>scope</key>
+			<string>string.quoted.double.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#cc4232</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: Strings Single-Quoted</string>
+			<key>scope</key>
+			<string>string.quoted.single.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#cc4232</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: Variables Globals</string>
+			<key>scope</key>
+			<string>variable.other.global.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#6c99bb</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: Variables Safer Globals</string>
+			<key>scope</key>
+			<string>variable.other.global.safer.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00FF00</string>
 			</dict>
 		</dict>
 		<dict>
@@ -306,76 +566,6 @@
 			<string>Css Parameter</string>
 			<key>scope</key>
 			<string>variable.parameter.misc.css</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>-----------------------------------</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Less Selector - Tag</string>
-			<key>scope</key>
-			<string>source.css.less keyword.control.html.elements</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Less Color</string>
-			<key>scope</key>
-			<string>source.css.less constant.other.rgb-value.css</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Less Unit</string>
-			<key>scope</key>
-			<string>source.css.less keyword.unit.css</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Less Curly Brackets</string>
-			<key>scope</key>
-			<string>source.css.less meta.brace.curly.js</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Less Round Brackets</string>
-			<key>scope</key>
-			<string>source.css.less meta.brace.round.js</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Less Operator</string>
-			<key>scope</key>
-			<string>keyword.operator.less</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Less Variable / At Rule</string>
-			<key>scope</key>
-			<string>variable.other.less</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Less url() / rgba() / hsla() / Other</string>
-			<key>scope</key>
-			<string>source.css.less support.function</string>
 			<key>settings</key>
 			<dict/>
 		</dict>
@@ -527,21 +717,76 @@
 			<key>settings</key>
 			<dict/>
 		</dict>
-		<dict>
+			<dict>
 			<key>name</key>
-			<string>-----------------------------------</string>
+			<string>============================================================</string>
 			<key>settings</key>
 			<dict/>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>PHP Tags</string>
+			<string>JSON - 6 deep</string>
 			<key>scope</key>
-			<string>punctuation.section.embedded.begin.php, punctuation.section.embedded.end.php</string>
+			<string>meta meta meta meta meta meta meta.structure.dictionary.value string</string>
 			<key>settings</key>
 			<dict>
-			<key>foreground</key>
-			<string>#6c99bb</string>
+				<key>foreground</key>
+				<string>#18FFFA</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON - 5 deep</string>
+			<key>scope</key>
+			<string>meta meta meta meta meta meta.structure.dictionary.value string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF5A60</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON - 4 deep</string>
+			<key>scope</key>
+			<string>meta meta meta meta meta.structure.dictionary.value string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#1471FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON - 3 deep</string>
+			<key>scope</key>
+			<string>meta meta meta meta.structure.dictionary.value string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF8D04</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON - 2 deep</string>
+			<key>scope</key>
+			<string>meta meta meta.structure.dictionary.value string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#22FF31</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON - 1 deep</string>
+			<key>scope</key>
+			<string>meta meta.structure.dictionary.value string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF54EB</string>
 			</dict>
 		</dict>
 	</array>
