@@ -57,7 +57,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#8856d2</string>
+				<string>#0092d1</string>
 			</dict>
 		</dict>
 		<dict>
@@ -198,7 +198,7 @@
 			<key>scope</key>
 			<string>source.css entity.other.attribute-name.id</string>
 			<key>settings</key>
-			<dict/>
+			<dict />
 		</dict>
 		<dict>
 			<key>name</key>
@@ -222,7 +222,10 @@
 			<key>scope</key>
 			<string>support.type.property-name</string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+				<key>foreground</key>
+				<string>#6c99bb</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -230,7 +233,10 @@
 			<key>scope</key>
 			<string>support.constant.property-value</string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+				<key>foreground</key>
+				<string>#41b645</string>
+			</dict>	
 		</dict>
 		<dict>
 			<key>name</key>
@@ -238,7 +244,10 @@
 			<key>scope</key>
 			<string>constant.other.color.rgb-value</string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+				<key>foreground</key>
+				<string>#d9d762</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -246,7 +255,10 @@
 			<key>scope</key>
 			<string>keyword.other.unit.css</string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+				<key>foreground</key>
+				<string>#0092d1</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -254,7 +266,10 @@
 			<key>scope</key>
 			<string>support.constant.font-name</string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+				<key>foreground</key>
+				<string>#41b645</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -270,7 +285,10 @@
 			<key>scope</key>
 			<string>punctuation.section.function.css</string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+				<key>foreground</key>
+				<string>#41b645</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -278,7 +296,10 @@
 			<key>scope</key>
 			<string>support.function.misc.css</string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+				<key>foreground</key>
+				<string>#41b645</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
