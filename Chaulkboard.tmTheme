@@ -36,7 +36,6 @@
 				<string>#bbd7c1</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>Comment</string>
@@ -69,7 +68,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#0092d1</string>
+				<string>#8856d2</string>
 			</dict>
 		</dict>
 		<dict>
@@ -113,7 +112,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#cfff01</string>
+				<string>#41b645</string>
 			</dict>
 		</dict>
 		<dict>
@@ -124,7 +123,51 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#80FCFF</string>
+				<string>#41b645</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Storage type</string>
+			<key>scope</key>
+			<string>storage.type</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#0092d1</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Variable</string>
+			<key>scope</key>
+			<string>variable, punctuation.definition.variable</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#6c99bb</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Keyword</string>
+			<key>scope</key>
+			<string>keyword</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#0092d1</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Keyword other</string>
+			<key>scope</key>
+			<string>keyword.other</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#0092d1</string>
 			</dict>
 		</dict>
 		<dict>
@@ -156,10 +199,8 @@
 			<string>meta.function entity.name.function</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string>#070E48</string>
 				<key>foreground</key>
-				<string>#0AFF04</string>
+				<string>#41b644</string>
 			</dict>
 		</dict>
 		<dict>
@@ -170,7 +211,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#10FF02</string>
+				<string>#41b644</string>
 			</dict>
 		</dict>
 		<dict>
@@ -218,9 +259,9 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>bold italic</string>
+				<string>italic</string>
 				<key>foreground</key>
-				<string>#E3A0FF</string>
+				<string>#41b644</string>
 			</dict>
 		</dict>
 		<dict>
@@ -336,7 +377,17 @@
 			<string>#6c99bb</string>
 			</dict>
 		</dict>
-
+		<dict>
+			<key>name</key>
+			<string>Storage modifier</string>
+			<key>scope</key>
+			<string>storage.modifier</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#0092d1</string>
+			</dict>
+		</dict>
 		<dict>
 			<key>name</key>
 			<string>PHP: PHPdocs</string>
@@ -356,7 +407,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFA325</string>
+				<string>#a5c261</string>
 			</dict>
 		</dict>
 		<dict>
@@ -366,10 +417,8 @@
 			<string>support.constant.std.php</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>bold italic</string>
 				<key>foreground</key>
-				<string>#BBFD0D</string>
+				<string>#a5c261</string>
 			</dict>
 		</dict>
 		<dict>
@@ -380,7 +429,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#C82255</string>
+				<string>#41b645</string>
 			</dict>
 		</dict>
 		<dict>
@@ -435,7 +484,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#00FF00</string>
+				<string>#6c99bb</string>
 			</dict>
 		</dict>
 		<dict>
@@ -787,6 +836,17 @@
 			<dict>
 				<key>foreground</key>
 				<string>#FF54EB</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>String.regexp</string>
+			<key>scope</key>
+			<string>string.regexp</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#efac32</string>
 			</dict>
 		</dict>
 	</array>
