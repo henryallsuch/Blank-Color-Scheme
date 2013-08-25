@@ -61,7 +61,6 @@ EOD;
 			$foo->bar($arg1);
 			$foo->$bar($arg1);
 
-
 		}
 
 		for ($i = 0; $i < 10; $i++) {
@@ -131,13 +130,13 @@ EOD;
 "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 <head>
-<title><?=$page_title;?></title>
+<title><?php $page_title = "PHP Embedded Example"; echo $page_title; ?></title>
 </head>
 <body>
 <?php if ($expression == true): ?>
-<p></p>
+<p title="bonjour">Hello</p>
 <?php else: ?>
-<p></p>
+<p class="leMonde">World</p>
 <?php endif; ?>
 
 <?php
