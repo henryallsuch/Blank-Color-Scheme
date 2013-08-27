@@ -9,7 +9,7 @@ objects: anObject,
     singleQuoted: '"Hello, world!" he said.',
     doubleQuoted: "Smith"
   },
-  numbers: [33, 34.5, 3.45e2, 0377, 0xFF, NaN, Infinity, Math.PI],
+  numbers: [33, 34.5, 0377, 0xFF, NaN, Infinity, Math.PI],
   hobbies: function(){ 
 
 	var h = greeting.charAt(0);
@@ -35,18 +35,18 @@ function Foo(arg1, arg2) {
 		return "My name is Java".replace(/Java/,"Javascript")); 
 
 	} catch(errorValue) {
-	  
-	} finally {
-	  
-	}
-
-  var d = new Date(2010, 2, 1, 14, 25, 30);
-  var e = d.getFullYear() + '-' + (d.getMonth()+1) + '-' + d.getDate() + ' '
+	  	
+	  	 var d = new Date(2010, 2, 1, 14, 25, 30);
+	  	 var e = d.getFullYear() + '-' + (d.getMonth()+1) + '-' + d.getDate() + ' '
       + d.getHours() + ':' + d.getMinutes() + ':' + d.getSeconds());
 
-  if (yz > 0) {
-    this.pyz = function() { return this.prefix + "Y"; };
-  }
+	} finally {
+
+		if (yz > 0) {
+			this.pyz = function() { return this.prefix + "Y"; };
+		}
+	  
+	}
 
   this.m1 = px();
 

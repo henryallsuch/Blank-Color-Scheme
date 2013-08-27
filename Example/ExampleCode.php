@@ -86,7 +86,7 @@ EOD;
 		break;
 		default:
 			
-			echo htmlentities($str, ENT_QUOTES | ENT_IGNORE, "UTF-8");
+			return parent::test(htmlentities($str, ENT_QUOTES | ENT_IGNORE, "UTF-8"));
 
 		break;
 		}
