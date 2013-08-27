@@ -65,7 +65,7 @@ EOD;
 
 		for ($i = 0; $i < 10; $i++) {
     		
-    		$objectVar = new obj();
+    		$objectVar = new object();
     		echo ord($objectVar[$i]) . ' ';
 
 		}
@@ -140,6 +140,7 @@ EOD;
 <?php endif; ?>
 
 <?php
+
 $xml =<<<XML
 <?xml version="1.0" encoding="UTF-8" ?>
 
@@ -150,6 +151,7 @@ $xml =<<<XML
 XML; // End of heredoc
 
 echo $xml;
+
 ?>
 </body>
 </html>

@@ -112,7 +112,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#41b645</string>
+				<string>#86B4BB</string>
 			</dict>
 		</dict>
 		<dict>
@@ -123,7 +123,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#41b645</string>
+				<string>#86B4BB</string>
 			</dict>
 		</dict>
 		<dict>
@@ -221,10 +221,8 @@
 			<string>meta.function-call.arguments, variable.parameter</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
 				<key>foreground</key>
-				<string>#2BB71D</string>
+				<string>#e6e1c4</string>
 			</dict>
 		</dict>
 		<dict>
@@ -379,6 +377,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Quoted Heredoc</string>
+			<key>scope</key>
+			<string>text.html.basic source.php.embedded.block.html string.unquoted.heredoc.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#cc4232</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Storage modifier</string>
 			<key>scope</key>
 			<string>storage.modifier</string>
@@ -443,6 +452,30 @@
 				<string>#6969FA</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: Construct Functions</string>
+			<key>scope</key>
+			<string>text.html.basic source.php.embedded.block.html support.function.construct.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#0092d1</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: Variable Property</string>
+			<key>scope</key>
+			<string>text.html.basic source.php.embedded.block.html variable.other.property.php </string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#86B4BB</string>
+			</dict>
+		</dict>
+
+
 		<dict>
 			<key>name</key>
 			<string>PHP: Strings Double-Quoted</string>
@@ -714,9 +747,23 @@
 			<key>name</key>
 			<string>Javascript Variable</string>
 			<key>scope</key>
-			<string>source.js variable</string>
+			<string>source.js variable.language.js, source.js meta.function.js support.class.js</string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+				<key>foreground</key>
+				<string>#66ccff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Javascript Instance Constructor</string>
+			<key>scope</key>
+			<string>source.js meta.class.instance.constructor keyword.operator.new.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#0092d1</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -740,15 +787,21 @@
 			<key>scope</key>
 			<string>source.js support</string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+				<key>foreground</key>
+				<string>#41b645</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Javascript Type</string>
 			<key>scope</key>
-			<string>source.js storage.type, source.js entity.name.type</string>
+			<string>source.js entity.name.type</string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+				<key>foreground</key>
+				<string>#41b645</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
