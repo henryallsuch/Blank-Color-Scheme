@@ -68,7 +68,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#8856d2</string>
+				<string>#6F59C2</string>
 			</dict>
 		</dict>
 		<dict>
@@ -112,7 +112,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#86B4BB</string>
+				<string>#6FC1D2</string>
 			</dict>
 		</dict>
 		<dict>
@@ -123,7 +123,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#86B4BB</string>
+				<string>#6FC1D2</string>
 			</dict>
 		</dict>
 		<dict>
@@ -243,8 +243,6 @@
 			<string>support.function.builtin</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
 				<key>foreground</key>
 				<string>#E0A1FF</string>
 			</dict>
@@ -256,8 +254,6 @@
 			<string>support.function.magic</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
 				<key>foreground</key>
 				<string>#41b644</string>
 			</dict>
@@ -276,10 +272,8 @@
 			<string>meta.tag.sgml.doctype, meta.tag.sgml.doctype entity, meta.tag.sgml.doctype string, meta.tag.preprocessor.xml, meta.tag.preprocessor.xml entity, meta.tag.preprocessor.xml string</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
-				<string>#86B4BB</string>
+				<string>#6FC1D2</string>
 			</dict>
 		</dict>
 
@@ -471,7 +465,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#86B4BB</string>
+				<string>#6FC1D2</string>
 			</dict>
 		</dict>
 
@@ -751,7 +745,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#86B4BB</string>
+				<string>#6FC1D2</string>
 			</dict>
 		</dict>
 		<dict>
