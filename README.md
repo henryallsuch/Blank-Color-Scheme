@@ -26,6 +26,22 @@ General aims for this theme:
 ### TextMate Install Location:
     
 * (OSX) `/Library/Application Support/TextMate/Themes`
+
+## Sublime User Prefs
+
+A few tweaks, (used in the screenshot above).
+
+    {
+    "bold_folder_labels": true,
+    "color_scheme": "Packages/Chalkboard/Chalkboard.tmTheme",
+    "draw_indent_guides": false,
+    "draw_white_space": "none",
+    "font_face": "Droid Sans Mono",
+    "font_size": 11,
+    "highlight_line": false,
+    "line_padding_bottom": 2,
+    "line_padding_top": 2
+    }
     
 ## Thanks
 
