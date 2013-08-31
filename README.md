@@ -2,6 +2,15 @@
 
 ## for Sublime Text 2/3 and TextMate
 
+General aims for this theme:
+
+* Colours work together but different enough create diversity
+* Work in low light & bright light environments
+* Colours to help comprehension of language syntax and construct
+
+![PHP](https://github.com/henryallsuch/Chalkboard/raw/master/images/php.png)
+![PHP](https://github.com/henryallsuch/Chalkboard/raw/master/images/javascript.png)
+
 ### Sublime Text 2/3 Install Locations:
 
 [Download .zip file](https://github.com/henryallsuch/chalkboard/archive/master.zip)
