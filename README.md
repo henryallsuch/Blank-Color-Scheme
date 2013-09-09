@@ -2,15 +2,20 @@
 
 ## for Sublime Text 2/3 and TextMate
 
-> Researches have revealed that green is the color that gives a calming effect for the eyes. The green color also avoids the eyes from getting fatigued.
+>Researches have revealed that green is the color that gives a calming effect for the eyes. The green color also avoids the eyes from getting fatigued.
+
 
 [From Reasons Why Chalkboards Are Green by Kenny Leones](http://belcorpinternational.com/greenblog/?p=1964)
 
 General aims for this theme:
 
-* Colours work together with the green background but different enough create contrast
-* Work in low light & bright light environments
-* Colours to help comprehension of language syntax and construct
+* Use colours which work together with the green background but different enough create contrast.
+* Work in low light & bright light environments.
+* Help reduce relection on glass screens.
+* Use colour to help readability of language syntax and construct
+* Use simlar colours accross languages for simlar language syntax.
+* Limit the amount of colours used to avoid getting too busy
+* Loosely base colours on those avaible in real chalk
 
 ![PHP](https://github.com/henryallsuch/Chalkboard/raw/master/images/php.png)
 ![PHP](https://github.com/henryallsuch/Chalkboard/raw/master/images/javascript.png)

@@ -5,7 +5,7 @@
 	<key>author</key>
 	<string>henryallsuch</string>
 	<key>name</key>
-	<string>Chaulkboard based on Blank Color Scheme</string>
+	<string>Chalkboard based on Blank Color Scheme</string>
 	<key>settings</key>
 	<array>
 		<dict>
@@ -45,19 +45,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#efcb43</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Invalid</string>
-			<key>scope</key>
-			<string>invalid.illegal</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#CC4232</string>
-				<key>foreground</key>
-				<string>#E6E1C4</string>
 			</dict>
 		</dict>
 		<dict>
@@ -384,7 +371,7 @@
 			<key>name</key>
 			<string>Quoted Heredoc</string>
 			<key>scope</key>
-			<string>text.html.basic source.php.embedded.block.html string.unquoted.heredoc.php</string>
+			<string>text.html.basic source.php.embedded string.unquoted.heredoc.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -461,7 +448,7 @@
 			<key>name</key>
 			<string>PHP: Construct Functions</string>
 			<key>scope</key>
-			<string>text.html.basic source.php.embedded.block.html support.function.construct.php</string>
+			<string>text.html.basic source.php.embedded support.function.construct</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -472,7 +459,7 @@
 			<key>name</key>
 			<string>PHP: Variable Property</string>
 			<key>scope</key>
-			<string>text.html.basic source.php.embedded.block.html variable.other.property.php </string>
+			<string>text.html.basic source.php.embedded variable.other.property.php </string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -527,13 +514,13 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>PHP: as</string>
+			<string>PHP logical operators</string>
 			<key>scope</key>
 			<string>source.php keyword.operator.logical</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#66ccff</string>
+				<string>#bbd7c1</string>
 			</dict>
 		</dict>
 		<dict>
@@ -947,6 +934,93 @@
 				<string>#efac32</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>============================================================</string>
+			<key>settings</key>
+			<dict/>
+		</dict>
+		<dict>
+    <key>name</key>
+    <string>SublimeLinter Annotations</string>
+    <key>scope</key>
+    <string>sublimelinter.annotations</string>
+    <key>settings</key>
+    <dict>
+        <key>background</key>
+        <string>#FFFFAA</string>
+        <key>foreground</key>
+        <string>#FFFFFF</string>
+    </dict>
+</dict>
+<dict>
+    <key>name</key>
+    <string>SublimeLinter Error Outline</string>
+    <key>scope</key>
+    <string>sublimelinter.outline.illegal</string>
+    <key>settings</key>
+    <dict>
+        <key>background</key>
+        <string>#003e1e</string>
+    </dict>
+</dict>
+<dict>
+    <key>name</key>
+    <string>SublimeLinter Error Underline</string>
+    <key>scope</key>
+    <string>sublimelinter.underline.illegal</string>
+    <key>settings</key>
+    <dict>
+        <key>background</key>
+        <string>#7f0000</string>
+    </dict>
+</dict>
+<dict>
+    <key>name</key>
+    <string>SublimeLinter Warning Outline</string>
+    <key>scope</key>
+    <string>sublimelinter.outline.warning</string>
+    <key>settings</key>
+    <dict>
+        <key>background</key>
+        <string>#7f0000</string>
+    </dict>
+</dict>
+<dict>
+    <key>name</key>
+    <string>SublimeLinter Warning Underline</string>
+    <key>scope</key>
+    <string>sublimelinter.underline.warning</string>
+    <key>settings</key>
+    <dict>
+        <key>background</key>
+        <string>#7f0000</string>
+    </dict>
+</dict>
+<dict>
+    <key>name</key>
+    <string>SublimeLinter Violation Outline</string>
+    <key>scope</key>
+    <string>sublimelinter.outline.violation</string>
+    <key>settings</key>
+    <dict>
+        <key>background</key>
+        <string>#ffff33</string>
+        <key>foreground</key>
+        <string>#FFFFFF</string>
+    </dict>
+</dict>
+<dict>
+    <key>name</key>
+    <string>SublimeLinter Violation Underline</string>
+    <key>scope</key>
+    <string>sublimelinter.underline.violation</string>
+    <key>settings</key>
+    <dict>
+        <key>background</key>
+        <string>#7f0000</string>
+    </dict>
+</dict>
 	</array>
 	<key>uuid</key>
 	<string>85F99C5D-DDA7-4811-B940-0105FD38EAE2</string>
