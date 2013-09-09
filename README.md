@@ -11,11 +11,11 @@ General aims for this theme:
 
 * Use colours which work together with the green background but different enough create contrast.
 * Work in low light & bright light environments.
-* Help reduce relection on glass screens.
-* Use colour to help readability of language syntax and construct
+* Help reduce reflection on glass screens.
+* Use colour to help readability of language syntax and construct.
 * Use simlar colours accross languages for simlar language syntax.
-* Limit the amount of colours used to avoid getting too busy
-* Loosely base colours on those avaible in real chalk
+* Limit the amount of colours used to avoid getting too busy.
+* Loosely base colours on those available in real chalk.
 
 ![PHP](https://github.com/henryallsuch/Chalkboard/raw/master/images/php.png)
 ![PHP](https://github.com/henryallsuch/Chalkboard/raw/master/images/javascript.png)
