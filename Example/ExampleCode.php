@@ -1,5 +1,7 @@
 <?php
 
+namespace Vendor\Package;
+
 // This is a one-line c++ style comment
 /* This is a multi line comment
        yet another line of comment */ 
@@ -11,8 +13,6 @@ define('LOCATOR', "/locator");
 
 require_once '/folder/class/bar.php';
 
-namespace Vendor\Package;
-
 use FooInterface;
 use BarClass as Bar;
 use OtherVendor\OtherPackage\BazClass;
@@ -21,7 +21,7 @@ class ClassName extends ParentClass implements \FooInterface, \Countable
 
 {
 	 const VERSION = 1.0;
-	 const DATE_APPROVED = '2012-06-01';
+	 const DATE_APPROVED = '2014-06-01';
 	 protected static $foo;
 	 private $my_array = array("bar"=>'single quote string', TRUE, NULL); 
 	 public $var2 = <<<EOD
@@ -37,7 +37,7 @@ EOD;
 	 		$b = DIRECTORY_SEPARATOR;
 	 		$c = 1.2e3;
 	 		$c += 7E-10;
-	 		$d = (-5 % (-3 / $c);
+	 		$d = (-5 % (-3 / $c));
 
 	 		$e = bar();
 	 		$f = $func('test');
