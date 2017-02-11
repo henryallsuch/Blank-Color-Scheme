@@ -22,8 +22,8 @@ class ClassName extends ParentClass implements \FooInterface, \Countable
 {
 	 const VERSION = 1.0;
 	 const DATE_APPROVED = '2014-06-01';
-	 protected static $foo;
-	 private $my_array = array("bar"=>'single quote string', TRUE, NULL); 
+	 protected static $foo = false;
+	 private $my_array = array("bar" => 'single quote string', TRUE, NULL); 
 	 public $var2 = <<<EOD
 	  hello world
 EOD;
@@ -51,6 +51,10 @@ EOD;
 			BazClass::bar($arg2, $arg3);
 
 			$this->my_array['bar'][0] = $row;
+
+			if (BazClass instanceof Exception) {
+                return true;
+            }
 
 			exit;
 
@@ -139,19 +143,5 @@ EOD;
 <p class="leMonde">World</p>
 <?php endif; ?>
 
-<?php
 
-$xml =<<<XML
-<?xml version="1.0" encoding="UTF-8" ?>
-
-<key>Value</key>
-
-<anotherKey attribute="false">And a PHP {$variable} here and an array {$arr['value']} there.</anotherKey>
-
-XML; // End of heredoc
-
-echo $xml;
-
-?>
-</body>
-</html>
+</body></html>
